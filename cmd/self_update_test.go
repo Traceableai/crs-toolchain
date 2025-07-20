@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/coreruleset/crs-toolchain/v2/internal/updater"
+	"github.com/Traceableai/crs-toolchain/v2/internal/updater"
 )
 
 type selfUpdateTestSuite struct {

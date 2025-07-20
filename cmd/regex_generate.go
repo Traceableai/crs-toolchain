@@ -11,9 +11,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/coreruleset/crs-toolchain/v2/context"
-	"github.com/coreruleset/crs-toolchain/v2/regex/operators"
-	"github.com/coreruleset/crs-toolchain/v2/regex/processors"
+	"github.com/Traceableai/crs-toolchain/v2/context"
+	"github.com/Traceableai/crs-toolchain/v2/regex/operators"
+	"github.com/Traceableai/crs-toolchain/v2/regex/processors"
 )
 
 // generateCmd represents the generate command

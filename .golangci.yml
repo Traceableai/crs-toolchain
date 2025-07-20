@@ -27,7 +27,7 @@ formatters:
         - standard
         - default
         - blank
-        - prefix(github.com/coreruleset/crs-toolchain)
+        - prefix(github.com/Traceableai/crs-toolchain)
       custom-order: true
   exclusions:
     generated: lax

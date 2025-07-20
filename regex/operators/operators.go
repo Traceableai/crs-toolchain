@@ -10,7 +10,7 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/coreruleset/crs-toolchain/v2/regex/processors"
+	"github.com/Traceableai/crs-toolchain/v2/regex/processors"
 )
 
 var logger = log.With().Str("component", "operators").Logger()

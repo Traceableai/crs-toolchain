@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/coreruleset/crs-toolchain/v2/context"
-	"github.com/coreruleset/crs-toolchain/v2/util"
+	"github.com/Traceableai/crs-toolchain/v2/context"
+	"github.com/Traceableai/crs-toolchain/v2/util"
 )
 
 // renumberTestsCommand represents the update command
