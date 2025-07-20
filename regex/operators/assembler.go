@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"regexp"
 	"sort"
+	"strconv"
 	"strings"
 
 	"github.com/itchyny/rassemble-go"
@@ -250,7 +251,12 @@ func (a *Operator) useHexEscapes(input string) string {
 			// For control characters (ASCII < 32), use the shorthand hex notation (\xHH).
 			sb.WriteString(fmt.Sprintf("\\x%x", char))
 		} else if char > 126 {
-			sb.WriteString(fmt.Sprintf("\\x{%x}", char))
+			if strconv.IsPrint(char) {
+				sb.WriteRune(char)
+			} else {
+				// Non-printable character: emit as \xHH
+				sb.WriteString(fmt.Sprintf("\\x{%x}", char))
+			}
 		} else {
 			sb.WriteRune(char)
 		}

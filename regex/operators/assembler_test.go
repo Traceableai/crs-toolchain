@@ -351,7 +351,7 @@ func (s *specialCasesTestSuite) TestDoesNotConvertHexEscapesOfNonPrintableCharac
 	assembler := NewAssembler(s.ctx)
 	output, err := assembler.Run(contents)
 	s.Require().NoError(err)
-	s.Equal(`H\x{e2}\x93\x{ab}`, output)
+	s.Equal(`Hâ\x93«`, output)
 }
 
 func (s *specialCasesTestSuite) TestHexConversionOfNonAsciiCharacters() {
@@ -359,7 +359,7 @@ func (s *specialCasesTestSuite) TestHexConversionOfNonAsciiCharacters() {
 	assembler := NewAssembler(s.ctx)
 	output, err := assembler.Run(contents)
 	s.Require().NoError(err)
-	s.Equal(`\x{2019}`, output)
+	s.Equal(`’`, output)
 }
 
 func (s *specialCasesTestSuite) TestBackslashSReplacesPerlEquivalentCharacterClass() {
