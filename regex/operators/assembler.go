@@ -254,7 +254,7 @@ func (a *Operator) useHexEscapes(input string) string {
 			if strconv.IsPrint(char) {
 				sb.WriteRune(char)
 			} else {
-				// Non-printable character: emit as \xHH
+				// Non-printable character: emit as \x{HHHH}
 				sb.WriteString(fmt.Sprintf("\\x{%x}", char))
 			}
 		} else {
