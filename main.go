@@ -4,9 +4,9 @@
 package main
 
 import (
-	_ "github.com/coreruleset/crs-toolchain/v2/logger"
+	_ "github.com/Traceableai/crs-toolchain/v2/logger"
 
-	"github.com/coreruleset/crs-toolchain/v2/cmd"
+	"github.com/Traceableai/crs-toolchain/v2/cmd"
 )
 
 // nolint: gochecknoglobals

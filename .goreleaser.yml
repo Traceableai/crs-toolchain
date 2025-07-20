@@ -73,7 +73,7 @@ nfpms:
     bindir: /usr/bin
     file_name_template: '{{ .ConventionalFileName }}'
     vendor: OWASP Core Rule Set Project
-    homepage: https://github.com/coreruleset/crs-toolchain
+    homepage: https://github.com/Traceableai/crs-toolchain
     maintainer: maxleske@gmail.com
     description:
       CRS ToolChain helper

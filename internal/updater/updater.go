@@ -28,7 +28,7 @@ func getLatestVersionFromGitHub() (*selfupdate.Release, error) {
 	if err != nil {
 		return nil, err
 	}
-	latest, found, err := updater.DetectLatest(context.Background(), selfupdate.ParseSlug("coreruleset/crs-toolchain"))
+	latest, found, err := updater.DetectLatest(context.Background(), selfupdate.ParseSlug("traceableai/crs-toolchain"))
 	if err != nil {
 		return latest, fmt.Errorf("error occurred while detecting version: %w", err)
 	}

@@ -8,7 +8,7 @@ release, and disclosure processes, as well as general security posture.
 Vulnerabilities are reported privately via GitHub's
 [Security Advisories](https://docs.github.com/en/code-security/security-advisories)
 feature. Please use the following link to submit your vulnerability:
-[Report a vulnerability](https://github.com/coreruleset/crs-toolchain/security/advisories/new)
+[Report a vulnerability](https://github.com/Traceableai/crs-toolchain/security/advisories/new)
 
 Please see
 [Privately reporting a security vulnerability](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability)

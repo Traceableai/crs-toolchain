@@ -10,7 +10,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/coreruleset/crs-toolchain/v2/regex"
+	"github.com/Traceableai/crs-toolchain/v2/regex"
 )
 
 // generateCmd represents the generate command
